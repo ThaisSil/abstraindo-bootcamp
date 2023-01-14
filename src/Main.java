@@ -18,11 +18,11 @@ public class Main {
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria java");
         mentoria.setDescricao("descrição mentoria java");
-        mentoria.setCargaHoraria(LocalDate.now());
+        mentoria.setData(LocalDate.now());
 
         System.out.println(curso1);
         System.out.println(curso2);
-        System.out.println(mentoria                                                              );
+        System.out.println(mentoria);
 
     }
 }
